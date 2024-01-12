@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Your Personal Blog</title>
+</head>
+<body>
+    <header>
+        <h1>Your Personal Blog</h1>
+        <p>Welcome to Anisha's Blog, a space where I weave together my thoughts, experiences, and insights on a myriad of topics that intrigue and inspire me</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="main-content">
+        <article>
+            <h2>Reflecting on the Journey</h2>
+            <p>Join me on a personal journey as I navigate through life's twists and turns, sharing the highs and lows, and offering a genuine perspective on the world around me.</p>
+            <a href="#" class="read-more">Read more...</a>
+            <div class="comments">
+                <h3>Comments</h3>
+            
+                <ul id="comments-post-1"></ul>
+                <input type="text" id="comment-input-1" placeholder="Add your comment...">
+                <button onclick="addComment(1)">Add Comment</button>
+            </div>
+        </article>
+
+        <article>
+            <h2>Exploring New Horizons</h2>
+            <p>From reflections on personal growth and travel adventures to deep dives into technology, culture, and more – expect a diverse array of topics that captivate my curiosity.</p>
+            <a href="#" class="read-more">Read more...</a>
+            <div class="comments">
+                <h3>Comments</h3>
+            
+                <ul id="comments-post-2"></ul>
+                <input type="text" id="comment-input-2" placeholder="Add your comment...">
+                <button onclick="addComment(2)">Add Comment</button>
+            </div>
+        </article>
+        <article>
+            <h2>Sharing Insights</h2>
+            <p>Beyond personal anecdotes, I strive to offer insights that might resonate with you, spark new ideas, or prompt contemplation on the intricacies of life.
+                Your thoughts matter! Feel free to engage in the conversation by sharing your perspectives in the comments. Let's build a community of curious minds.
+            </p>
+            <a href="#" class="read-more">Read more...</a>
+            <div class="comments">
+                <h3>Comments</h3>
+        
+                <ul id="comments-post-2"></ul>
+                <input type="text" id="comment-input-2" placeholder="Add your comment...">
+                <button onclick="addComment(3)">Add Comment</button>
+            </div>
+        </article>
+        <article>
+           
+            <p>Thank you for being a part of this journey. Let's explore, learn, and grow together through the pages of this blog. Welcome to a space where ideas flourish, experiences unfold, and thoughts find a voice.
+            </p>
+        </article>
+
+    
+
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Personal Blog. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
